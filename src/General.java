@@ -12,7 +12,7 @@ public class General {
         for (int i = 1; i <= cars; i++) {
             Thread threadi = new Thread(parking);
             threadi.start();
-            threadi.join();
+            //threadi.join();
         }
     }
 }
